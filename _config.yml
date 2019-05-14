@@ -10,11 +10,15 @@ user_description: I am a result-oriented, self-motivated React/React Native deve
 user_title: Javascript Developer 👨‍💻 🚀
 email: noor.ul.haq93@gmail.com
 twitter_username: nurlhq
-github_username:  Noor0
-medium_username:  nrlhq
+github_username: Noor0
+medium_username: nrlhq
+npm_username: nurlhq
 
 # Google-analytics
 google-analytics:
   id: ""
 
-exclude: ['package.json', 'src' , 'node_modules']
+plugins:
+  # - jekyll-seo-tag
+
+exclude: ["package.json", "src", "node_modules"]

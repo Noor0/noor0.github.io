@@ -15,6 +15,7 @@
 
   .user-projects-container {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -38,43 +39,43 @@
   }
 }
 
-.contents {
-  @media only screen and (min-width: $cut) {
-    margin-left: 0;
-    // width: 48%;
-  }
-}
+// .contents {
+//   @media only screen and (min-width: $cut) {
+//     margin-left: 0;
+//     width: 48%;
+//   }
+// }
 
-.contents-right {
-  @media only screen and (min-width: $cut) {
-    float: right;
-    margin-top: -5%;
-    // width: 48%;
-  }
-}
-.images-right {
-  @media only screen and (min-width: $cut) {
-    float: right;
-    width: 48%;
-  }
-  img {
-    @media only screen and (min-width: $cut) {
-      float: right;
-    }
-  }
-}
+// .contents-right {
+//   @media only screen and (min-width: $cut) {
+//     float: right;
+//     margin-top: -5%;
+//     width: 48%;
+//   }
+// }
+// .images-right {
+//   @media only screen and (min-width: $cut) {
+//     float: right;
+//     width: 48%;
+//   }
+//   img {
+//     @media only screen and (min-width: $cut) {
+//       float: right;
+//     }
+//   }
+// }
 
-.images-left {
-  @media only screen and (min-width: $cut) {
-    float: left;
-    width: 48%;
-  }
-  img {
-    @media only screen and (min-width: $cut) {
-      float: left;
-    }
-  }
-}
+// .images-left {
+//   @media only screen and (min-width: $cut) {
+//     float: left;
+//     width: 48%;
+//   }
+//   img {
+//     @media only screen and (min-width: $cut) {
+//       float: left;
+//     }
+//   }
+// }
 
 .project-link {
   display: inline-block;
@@ -88,23 +89,28 @@
   outline: none;
   text-decoration: none;
   cursor: pointer;
-  transition: color 0.3s ease-out,
-              background-color 0.3s ease-out,
-              border-color 0.3s ease-out;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out,
+    border-color 0.3s ease-out;
   &:hover {
     background-color: $purple;
     border-color: $purple;
     color: #fff;
-    transition: color 0.3s ease-in,
-                background-color 0.3s ease-in,
-                border-color 0.3s ease-in;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in,
+      border-color 0.3s ease-in;
   }
   &:active {
     background-color: $purple;
     border-color: $purple;
     color: #fff;
-    transition: color 0.3s ease-in,
-                background-color 0.3s ease-in,
-                border-color 0.3s ease-in;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in,
+      border-color 0.3s ease-in;
+  }
+}
+
+.user-projects-imgless {
+  width: 100%;
+  padding: 0px 24px;
+  @media only screen and (min-width: $cut) {
+    width: 45%;
   }
 }
