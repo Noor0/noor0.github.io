@@ -1,17 +1,17 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: Noor ul haq
+description: This is my Portfolio
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Anon Developer
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+username: Noor ul haq
+user_description: I am a result-oriented, self-motivated React/React Native developer with experience of working with different startups and a few freelance projects. I have been learning and working with different Javascript tools and technologies for quite some time. I find server-side development very interesting and have been learning Docker, a little bit of Kubernetes and Microservice Architecture recently. I love building products and learning new technologies.
+user_title: Javascript Developer
+email: noor.ul.haq93@gmail.com
+twitter_username: nurlhq
+github_username:  Noor0
+medium_username:  nrlhq
 
 # Google-analytics
 google-analytics:
