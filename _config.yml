@@ -1,7 +1,7 @@
 # Site settings
 title: Noor ul haq
 description: This is my Portfolio
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://noor0.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
