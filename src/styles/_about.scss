@@ -26,7 +26,7 @@
     // min-width: 8%;
 
     &::before {
-      content: '';
+      content: "";
       // position: absolute;
       margin-right: 5px;
       background-color: #32416b;
@@ -63,7 +63,7 @@
 
   .text {
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
     font-weight: bold;
     line-height: 180%;
   }
